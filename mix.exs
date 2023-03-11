@@ -22,7 +22,7 @@ defmodule HelloWorld.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:clik, git: "https://github.com/kevsmith/clik", branch: "develop"}
+      {:clik, "~> 0.2.1"}
     ]
   end
 end
